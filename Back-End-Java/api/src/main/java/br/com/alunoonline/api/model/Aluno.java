@@ -21,4 +21,5 @@ public class Aluno implements Serializable {
     private Long id;
     private String name;
     private String email;
+    private String GitFiMinhaBencao;
 }
