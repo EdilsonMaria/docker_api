@@ -4,7 +4,7 @@ services:
   postgres:
     container_name: postgres
     image: postgres
-    restart: unless-stopped
+    restart: always
     environment:
       POSTGRES_PASSWORD: junior
       POSTGRES_USER: "postgres"
